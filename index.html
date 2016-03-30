@@ -49,6 +49,25 @@
 		</ul>
     </div>
 	
-	<button id="btn_upload">UPLOAD</button>
+	<button id="btn_signin">SIGN IN</button>
+	
+	
+	<div id="sign_in"></div>
 </body>
+<script>
+ var sign = document.getElementById('btn_signin');
+ 
+ sign.addEventListener('click', function(){
+ 
+	document.getElementById('sign_in').innerHTML = '<h1>SIGN IN</h1>' +
+										'<form> <label for="name">Name</label>' +
+						'<input type= "text" id="first_name" placeholder = " John">' +
+						'<label for="email">Email Address (required) </label>'+
+				'<input type= "text" id="email" placeholder = " your@email.com">'+
+			'<button id = "button_submit">Submit</button>' +'</form>';
+ 
+ });
+
+
+</script>
 </html>
