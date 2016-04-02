@@ -4,4 +4,4 @@ LAUNCH NOTES: when running the scripts, use command source and then the path to 
 
 for security, I made the key pair a variable where it says -k $1.  For this, after you type the command for the script you would add your key-pair name afterwards like "source /downloads/script.sh keypair-name"
 
-
+Also, remember to terminate instances when you are done using them / testing
