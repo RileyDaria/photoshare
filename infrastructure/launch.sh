@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Check the README file for help if needed
+echo "Check the README file for help if needed"
 
 declare -a instancesARR
 
