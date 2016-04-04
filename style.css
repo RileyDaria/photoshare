@@ -45,6 +45,11 @@
 	text-align: center;
 	padding-top: 2em;
 }
+#categories{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
 	body {
 		line-height: 1;
 	}
