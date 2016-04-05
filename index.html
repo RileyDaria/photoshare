@@ -48,7 +48,7 @@
 	
 	<div id="sign_in"></div>
 	<input type="file" id="file">
-	<div id="demo"></div>
+	<div id="output"></div>
 	
 	    <div id="category">
 		
@@ -86,34 +86,34 @@
 			'<button id = "button_submit">Submit</button>' +'</form>';
  
  });
-	var upl = document.getElementById('myFile');
-	    var txt = "";
-    if ('files' in upl) {
-        if (upl.files.length == 0) {
-            txt = "Select one or more files.";
-        } else {
-            for (var i = 0; i < upl.files.length; i++) {
-                txt += "<br><strong>" + (i+1) + ". file</strong><br>";
-                var file = upl.files[i];
-                if ('name' in file) {
-                    txt += "name: " + file.name + "<br>";
-                }
-                if ('size' in file) {
-                    txt += "size: " + file.size + " bytes <br>";
-                }
-            }
-        }
-    } 
-    else {
-        if (upl.value == "") {
-            txt += "Select one or more files.";
-        } else {
-            txt += "The files property is not supported by your browser!";
-            txt  += "<br>The path of the selected file: " + upl.value; // If the browser does not support the files property, it will return the path of the selected file instead. 
-        }
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
+		function handleFileSelect(evt) {
+			var fileList = evt.target.files;
+			console.log(fileList);
+
+			for (var i = 0; i < fileList.length; i++) {
+				//fileList[i]
+				if (fileList[i].type.match('image.*')) {
+					renderImage(fileList[i]);
+				}
+			};
+		}
+				function renderImage(aFile){
+			var reader = new FileReader();
+			reader.onload = function(evt){
+				var outputDiv = document.getElementById('output');
+				console.log(evt);
+				var dataUrl = evt.target.result;
+
+				var img = document.createElement('img');
+				img.src = dataUrl;
+				img.height = '200';
+				outputDiv.appendChild(img);
+			};
+			reader.readAsDataURL(aFile);
+		}
+
+		document.getElementById('file').addEventListener('change', handleFileSelect, false);
+
 
 </script>
 </html>
