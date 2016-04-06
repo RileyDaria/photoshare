@@ -4,7 +4,7 @@ declare -a instancesARR
 
 echo "Check the README file for help if needed"
 
-mapfile -t instancesARR < <(euca-run-instances -g default -k $1 -t c1.medium -n 4 -d photoshare/infrastructure/instance-env.sh emi-c87b2863 | grep INSTANCE | sed "s/|//g" | tr -d ' ' | sed "s/INSTANCE//g")
+mapfile -t instancesARR < <(euca-run-instances -g default -k $1 -t c1.medium -n 4 -f photoshare/infrastructure/instance-env.sh emi-c87b2863 | grep INSTANCE | sed "s/|//g" | tr -d ' ' | sed "s/INSTANCE//g")
 
 echo ${instancesARR[@]}
 
