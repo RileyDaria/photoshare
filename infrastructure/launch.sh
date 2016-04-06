@@ -2,7 +2,7 @@
 
 echo "Check the README file for help if needed"
 
-euca-run-instances -g default -k $1 -t c1.medium -n 4 -d instance-env.sh emi-c87b2863
+euca-run-instances -g default -k $1 -t c1.medium -n 4 emi-c87b2863
 
 echo "short sleep to allow instances to load before creating the load balancer"
 sleep 30
