@@ -71,8 +71,8 @@ form {
   background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
   background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
   position: relative;
-  width: 550px;
-  height: 450px;
+  width: 450px;
+  height: 250px;
   font-size: 14px;
   font-style: italic;
   line-height: 24px;
