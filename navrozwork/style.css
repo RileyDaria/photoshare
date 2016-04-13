@@ -36,7 +36,7 @@
 .main-header {
 	background-color:black;
 	display: flex;
-	flex-direction: row;
+	
 	
 	
 }
@@ -66,6 +66,15 @@
 	
 }
 
+div.main-header button{
+       height:3em;
+       width: 7em;
+       border-radius: 50px 50px 50px 50px;
+       margin-top: 2em;  
+       border-width: 1px;
+       border-style: solid;
+       border-color: #7eba7c #578e57 #447d43;
+}
 #searchbox
 {
     background-color: #eaf8fc;
@@ -154,8 +163,10 @@
 
 #category h2{
   text-transform: uppercase;
-  color: #ccc;
+  color: red;
   font-size: 2em;
+  padding-left: 0.5em;
+  
 }
 #catergory * {
   margin: 0;
@@ -163,13 +174,13 @@
 }
  
 #category {
-  width: 900px;
-  margin: 0 auto;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
  
 #category ul {
   list-style-type: none;
+  padding-left: 12em;
 }
  
 #category li img {
@@ -181,6 +192,11 @@
   -ms-transition: box-shadow 0.5s ease;
   transition: box-shadow 0.5s ease;
   list-style-type: none;
+}
+
+div#category ul li a img{
+  width: 10em;
+  height:10em;
 }
  
 #category li img:hover {
