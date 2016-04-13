@@ -1,5 +1,9 @@
 folder to hold infrastructure scripts and stuff
 
+Currently, it assumes you have a security key in a directory one level outside of the github repo, for the data file purposes
+
+If you wish to SSH into a running instance, you do ssh root@instanceipaddress -i securitykey
+
 LAUNCH NOTES: when running the scripts, use command source and then the path to the file, for example if im in /home and my script is in /home/downloads you would use "source /downloads/script.sh
 
 for security, I made the key pair a variable where it says -k $1.  For this, after you type the command for the script you would add your key-pair name afterwards like "source /downloads/script.sh keypair-name"
