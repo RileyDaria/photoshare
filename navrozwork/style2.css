@@ -32,40 +32,38 @@
 
      /*******************************/
 
-
 .main-header {
 	background-color:black;
+	display: flex;
+	
 	
 	
 }
 .main-header img{
 	padding:5px;
-	max-width:100%;
-	width: auto;
-	height:auto;
-	margin-bottom:-100px;
-	
+	max-width:25%;
+	height:16em;
+	display:inline;
 	
 }
-.main-header #name{
-	position: relative;
-	margin-left:-200px;
-}
+
 .main-header h2{
 	color:red;
 	text-align:center;
         font-size: 3em;
+	padding-top: 3em;
+	padding-left: 1em;
 	
 	
 }
 .main-header h3{
+
 	color:white;
-	padding:1px;
+	padding-top:7em;
 	font-size:2em;
 	text-align:center;
 	
 }
-
 #searchbox
 {
     background-color: #eaf8fc;
