@@ -20,5 +20,5 @@ eulb-register-instances-with-lb --instances instancesARR[@] hawkstagram-elb
 
 sleep 5
 
-#hopefully this will put a metric alarm that monitors request counts on ELBs and alerts when it exceeds 90% usage for 3 consecutive 1 minute periods
+#hopefully this will put a metric alarm that monitors CPU usage on ELBs and alerts when it exceeds 90% usage for 3 consecutive 1 minute periods
 euwatch-put-metric-alarm test-alarm --alarm-description "a test alarm for CPU utilization" --metric-name CPUUtilization --namespace AWS/ELB --statistic Average --period 60 --threshold 90 --comparison-operator GreaterThanThreshold --evaluation-periods 3
