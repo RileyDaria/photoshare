@@ -17,3 +17,8 @@ echo "another short sleep to allow the load balancer to be created before attach
 sleep 120
 
 eulb-register-instances-with-lb --instances instancesARR[@] hawkstagram-elb
+
+sleep 5
+
+#hopefully this will put a metric alarm that monitors request counts on ELBs and alerts when it exceeds 90% usage for 3 consecutive 1 minute periods
+euwatch-put-metric-alarm --alarm-name test-alarm --alarm-description "a test alarm for CPU utilization" --metric-name CPUUtilization --namespace AWS/ELB --statistic Average --period 60 --threshold 90 --comparison-operator GreaterThanThreshold --evaluation-periods 3
