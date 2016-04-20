@@ -13,4 +13,4 @@ sleep 30
 
 eulb-create-lb -z RICE01 -l "lb-port=80, protocol=HTTP, instance-port=80, instance-protocol=HTTP" hawkstagram-elb
 
-eulb-register-instances-with-lb --instances instancesARR[0], instancesARR[1] hawkstagram-elb
+eulb-register-instances-with-lb --instances instancesARR[1], instancesARR[2] hawkstagram-elb
