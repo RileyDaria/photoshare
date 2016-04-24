@@ -6,8 +6,8 @@
  * Time: 10:22 PM
  */
 
-  mysqli_connect("root@euca.192.168.83.174",
-    "root", "root")
+  mysqli_connect("localhost",
+    "root", "")
   or die("<p>Error connecting to database: " .
     mysqli_error() . "</p>");
 
