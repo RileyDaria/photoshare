@@ -78,7 +78,7 @@ span{
 }
 #center{
 	
-	background-image:url('campus.jpg');
+	background-image:url('images/campus.jpg');
 	background-repeat: no-repeat;
 	opacity: 1!important;
     transition: opacity .25s;
