@@ -5,28 +5,23 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
+	<link rel="stylesheet" href="lightbox/lightbox2-master/dist/css/lightbox.min.css">
 	<title>IIT Photoshare Site</title>
 </head>
 <body>
 
-	<div class="main-header" id="banner">
+    <div class="main-header" id="banner">
+        
+	
+	
+	
 		<h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
 		<div>
-<<<<<<< HEAD
 		<img src="search-icon-white.png"alt="search_icon" id="search" >
 		<button id="sign_in" >Sign In</a></button>
 		</div>
 	
    </div>
-=======
-		<img src="search-icon-white.png"alt="search_icon" id="search" />
-		<a href="signin.php"><button id="sign_in" >Sign In</button></a>
-  </div>
-	</div>
-
-	</div>
->>>>>>> b64e843ac224a8a43558c5ccfe6f7061d91b31c7
 		<div id="center">
 			<div class="wrapper">
 			<h2>Where Illinois Tech Hawks share pictures</h2>
@@ -51,32 +46,34 @@
     
 
 	<!--<h2>Categories:</h2>-->
-  <div class="category">	
-	<div id="international">
-    	<img src="images/international.jpg" onclick="scaleToFullScreen()"/>
+  <section class="category">	
+	<div>
+    	<a class="example-image-link" href="images/graduation.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="images/graduation.jpg" alt="" /></a>
+     
+	</div>
+	<div>
+	    <a class="example-image-link" href="images/international.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/international.jpg" alt=""/></a>
+	</div>
+	<div>
+	    <a class="example-image-link" href="images/mtcc.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/mtcc.jpg" alt="" /></a>
+	  
+	</div>
+	<div>
+    	<a class="example-image-link" href="images/ramn.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/ramn.jpg" alt="" /></a>
+	</div>
+	<div>
+		<a class="example-image-link" href="images/stuart-lab.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/stuart-lab.jpg" alt="" /></a>
+    </div> 
+	<div>
+		<a class="example-image-link" href="images/sport.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/sport.jpg" alt="" /></a>
+   
+	</div>
+  
 
-	</div>
-	<div>
-	    <img src="images/graduation.jpg" >
-	</div>
-	<div>
-	    <img src="images/mtcc.jpg" >
-	</div>
-	<div>
-    	<img src="images/sport.jpg" >
-	</div>
-	<div>
-		<img src="images/ramn.jpg" >
-	</div>
-	<div>
-		<img src="images/stuart-lab.jpg">
-	</div>
-    </div>
-		
 
+    </section>
 	
   <div id="footer">
-<<<<<<< HEAD
   
  		<div>
    		 <a href="signin.html">SignIn</a>
@@ -92,23 +89,13 @@
 		</div>	  
   		 
 
-=======
-  	<nav>
- 		 <ul>
-   		 <li><a href="signin.php">SignIn</a></li>
-    		 <li class="active"><a href="#searchbox">Search</a></li>
-    		 <li><a href="#">Suggestions</a></li>
-    		 <li><a href="#">Team Members</a></li>
-  		 </ul>
-	</nav>
->>>>>>> b64e843ac224a8a43558c5ccfe6f7061d91b31c7
 	</div>
   
 
   	<div class="main-header">
-		<h2>&copy; Hawkstagram.com</h2>
+		<h1>&copy; Hawkstagram.com</h1>
   	</div>
-
+<script src="lightbox/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 <script>
 	var search_top = document.getElementById('search');
 	search_top.addEventListener('click',function(){
