@@ -91,12 +91,12 @@ span{
 	justify-content:center;
 
 }
-img {
+.category img {
     opacity: 1.0;
     filter: alpha(opacity=100);
 }
 
-img:hover {
+.category img:hover {
 
 	    opacity: 0.5;
     filter: alpha(opacity=40);
@@ -168,3 +168,18 @@ img:hover {
 	
 }
 
+/*	Media queries*/
+
+@media all and (min-width: 600px) {
+.category{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+
+	
+}
+.category div{
+	max-width:30%;
+}
+}
