@@ -58,7 +58,7 @@ span{
 
 }
 #banner{
-
+	
 }
 .wrapper{
   background-color: rgba(10,10,10, .55);
@@ -203,6 +203,15 @@ span{
 	width:100%;
 
 	
+}
+.image-upload{
+	background-color:#808080 ;	
+}
+.image-upload img {
+	max-width: 25%;
+}
+.image-upload > input{
+ 
 }
 /*#international{
 	background-image:url('images/international.jpg');
