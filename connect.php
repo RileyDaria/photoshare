@@ -6,10 +6,18 @@
  * Time: 10:22 PM
  */
 
-  mysqli_connect("localhost",
-    "root", "")
-  or die("<p>Error connecting to database: " .
-    mysqli_error() . "</p>");
+  $server = "localhost";
+  $username = "root";
+  $password = "";
+
+  // Create connection
+  $connection = new mysqli($server, $username, $password);
+
+  // Check connection
+  if ($connection->connect_error) {
+    die("Connection failed: " . $connection->connect_error);
+  }
+  echo "Connected successfully";
 
   echo "<p>Connected to MySQL!</p>";
 
@@ -32,3 +40,25 @@
   }
   echo "</ul>";
 ?>
+
+<html>
+<head>
+  <link href="" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header"><h1>PHP & MySQL: The Missing Manual</h1></div>
+<div id="example">Example 5-1</div>
+
+<div id="content">
+  <h1>SQL Connection test</h1>
+  <form action="scripts/connect.php" method="POST">
+    <fieldset class="center">
+      <input type="submit" value="Connect to MySQL" />
+    </fieldset>
+  </form>
+</div>
+
+<div id="footer"></div>
+</body>
+</html>
