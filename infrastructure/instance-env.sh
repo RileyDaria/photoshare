@@ -10,7 +10,9 @@ sudo php composer.phar require aws/aws-sdk-php &> /tmp/runcomposer.txt
 git clone https://github.com/ITMT-430/photoshare.git
 
 sudo mv photoshare/* /var/www/html
-#cd /var/www/html/navrozwork
-#sudo mv *.html ../
-#sudo mv *.css ../
-#sudo mv *.jpg ../
+cd /var/www/html/navrozwork
+sudo mv signin.html ../
+sudo mv signup.html ../
+sudo mv style1.css ../
+sudo mv style2.css
+sudo mv *.jpg ../
