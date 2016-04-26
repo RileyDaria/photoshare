@@ -271,7 +271,7 @@ input#file{
 
 /*	Media queries*/
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 400px) {
 .category{
 	display:flex;
 	flex-direction:row;
