@@ -1,23 +1,11 @@
 <?php
-include('session.php');
-?>
-
-<?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
+    require_once('cas_setup.php');
+    require_once('config.php');
+    require_once('classes.php');
+//    phpCAS::logout();
+    if(!phpCAS::isAuthenticated()) {
+        phpCAS::forceAuthentication();
     }
-}
 ?>
 
 <!DOCTYPE html>
@@ -65,44 +53,121 @@ s
 
 
 <?php
-if(isset($_FILES['image'])){
-$errors= array();
-$file_name = $_FILES['image']['name'];
-$file_size =$_FILES['image']['size'];
-$file_tmp =$_FILES['image']['tmp_name'];
-$file_type=$_FILES['image']['type'];
-$file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+//echo '<pre>';
+//print_r($_FILES);
+//die();
+if(isset($_FILES['image'])) {
+    $image = new Image();
+    $image->name = 'wow';
+    $image->uid = phpCAS::getUser();
 
-$expensions= array("jpeg","jpg","png");
-
-if(in_array($file_ext,$expensions)=== false){
-$errors[]="extension not allowed, please choose a JPEG or PNG file.";
-}
-
-if($file_size > 2097152){
-$errors[]='File size must be excately 2 MB';
-}
-
-if(empty($errors)==true){
-move_uploaded_file($file_tmp,"images/".$file_name);
-echo "Success";
-}else{
-print_r($errors);
-}
+    if($errors = $image->create($_FILES['image']) === true) {
+        foreach($_POST['categories'] as $category) {
+            $image->addTag($category);
+        }
+//        #TODO maybe redirect to image page?
+        die('okay it worked');
+    }
+    else {
+        print_r($errors);
+    }
 }
 ?>
-<html>
-<body>
 
-<form action="" method="POST" enctype="multipart/form-data">
-    <input type="file" name="image" />
-    <input type="submit"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>IIT Photoshare Site</title>
+</head>
+<body>
+<div class="main-header" id="banner">
+    <h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
+    <div>
+
+        <img src="images/search-icon-white.png"alt="search_icon" id="search" >
+
+    </div>
+
+</div>
+<form method="post" enctype="multipart/form-data">
+    <div class="image-upload">
+        <label for="file">
+            <img src="images/upload_icon.png"/>
+        </label>
+
+        <input name="image" type="file" class="file-input" id="file" placeholder="Choose the file from your device"/>
+        <input name="image_name">
+    </div>
+
+
+    <ul class="container">
+        <div id="output"></div>
+
+        <h2>Please choose the Category</h2>
+        <ul id="category" class="category_buttons">
+
+            <li><input type="checkbox" name="categories[]" value="graduation">Graduation</li>
+            <li><input type="checkbox" name="categories[]" value="events">Events</li>
+            <li><input type="checkbox" name="categories[]" value="campus">Campus</li>
+            <li><input type="checkbox" name="categories[]" value="international students">International Students</li>
+            <li><input type="checkbox" name="categories[]" value="sports">Sports</li>
+            <li><input type="checkbox" name="categories[]" value="student life">Student Life</li>
+            <li><input type="checkbox" name="categories[]" value="ipro">IPRO</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Armour College of Engineering</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Chicago-Kent College of Law</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">College of Architecture</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">College of Science</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Institute of Design</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Institute for Food Safety and Health</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Lewis College of Human Sciences</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Pritzker Institute of Biomedical Science and Engineering</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">School of Applied Technology</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">Stuart School of Business</li>
+            <li><input type="checkbox" name="categories[]" value="graduation">WISER</li>
+
+        </ul>
+    </div>
+        <button type="submit">SUBMIT</button>
 </form>
 
+
+
+
+
+<script>
+
+    function handleFileSelect(evt) {
+        var fileList = evt.target.files;
+        console.log(fileList);
+
+        for (var i = 0; i < fileList.length; i++) {
+            //fileList[i]
+            if (fileList[i].type.match('image.*')) {
+                renderImage(fileList[i]);
+            }
+        };
+    }
+    function renderImage(aFile){
+        var reader = new FileReader();
+        reader.onload = function(evt){
+            var outputDiv = document.getElementById('output');
+            console.log(evt);
+            var dataUrl = evt.target.result;
+
+            var img = document.createElement('img');
+            img.src = dataUrl;
+            img.height = '200';
+            outputDiv.appendChild(img);
+        };
+        reader.readAsDataURL(aFile);
+    }
+
+    document.getElementById('file').addEventListener('change', handleFileSelect, false);
+
+
+</script>
 </body>
 </html>
-</body>
-</html>
-
-
-
