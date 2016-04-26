@@ -32,9 +32,9 @@
             $errors = $this->validateImage($fileArray);
             if(sizeof($errors) > 0) return $errors;
             $this->file_type = strtolower(end(explode('.',$fileArray['name'])));
-            $this->date = date('l, F jS, Y - h:i:s A');
+            $this->date = date('YY MM DD);
 
-            $query = "INSERT INTO `images_table` (`name`,`date`,`uid`,`file_type`) VALUES ('".$this->name."','".$this->date."','".$this->uid."','".$this->file_type."')";
+            $query = "INSERT INTO 'images_table' (`name`,`date`,`uid`,`file_type`) VALUES ('".$this->name."','".$this->date."','".$this->uid."','".$this->file_type."')";
             $db->query($query);
             $this->image_id = $db->insert_id;
 
@@ -49,7 +49,7 @@
         }
 
         function addTag($category) {
-//            #TODO DOESN'T WORK RIGHT NOW
+//            TODO Dosen't  WORK RIGHT NOW
             $tag = new Tag();
             $tag->image_id = $this->image_id;
             $tag->category = $category;

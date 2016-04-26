@@ -103,7 +103,7 @@ if(isset($_FILES['image'])) {
     </div>
 
 
-    <ul class="container">
+    <div class="container">
         <div id="output"></div>
 
         <h2>Please choose the Category</h2>
@@ -116,17 +116,17 @@ if(isset($_FILES['image'])) {
             <li><input type="checkbox" name="categories[]" value="sports">Sports</li>
             <li><input type="checkbox" name="categories[]" value="student life">Student Life</li>
             <li><input type="checkbox" name="categories[]" value="ipro">IPRO</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Armour College of Engineering</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Chicago-Kent College of Law</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">College of Architecture</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">College of Science</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Institute of Design</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Institute for Food Safety and Health</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Lewis College of Human Sciences</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Pritzker Institute of Biomedical Science and Engineering</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">School of Applied Technology</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">Stuart School of Business</li>
-            <li><input type="checkbox" name="categories[]" value="graduation">WISER</li>
+            <li><input type="checkbox" name="categories[]" value="engineering">Armour College of Engineering</li>
+            <li><input type="checkbox" name="categories[]" value="kent_law">Chicago-Kent College of Law</li>
+            <li><input type="checkbox" name="categories[]" value="arch">College of Architecture</li>
+            <li><input type="checkbox" name="categories[]" value="science">College of Science</li>
+            <li><input type="checkbox" name="categories[]" value="design">Institute of Design</li>
+            <li><input type="checkbox" name="categories[]" value="food_safety">Institute for Food Safety and Health</li>
+            <li><input type="checkbox" name="categories[]" value="humanities">Lewis College of Human Sciences</li>
+            <li><input type="checkbox" name="categories[]" value="biomedical">Pritzker Institute of Biomedical Science and Engineering</li>
+            <li><input type="checkbox" name="categories[]" value="sat">School of Applied Technology</li>
+            <li><input type="checkbox" name="categories[]" value="stuart">Stuart School of Business</li>
+            <li><input type="checkbox" name="categories[]" value="wiser">WISER</li>
 
         </ul>
     </div>

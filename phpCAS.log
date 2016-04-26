@@ -1,0 +1,842 @@
+DEA8 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+DEA8 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+DEA8 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+DEA8 .|    |    Starting a new session [Client.php:792]
+DEA8 .|    <= ''
+DEA8 .<= ''
+DEA8 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+DEA8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+DEA8 .<= ''
+571C .START phpCAS-1.3.2 ****************** [CAS.php:450]
+571C .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+571C .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+571C .|    |    Starting a new session [Client.php:792]
+571C .|    <= ''
+571C .<= ''
+571C .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+571C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+571C .<= ''
+41D1 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+41D1 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+41D1 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+41D1 .|    |    Starting a new session [Client.php:792]
+41D1 .|    <= ''
+41D1 .<= ''
+41D1 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+41D1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+41D1 .<= ''
+079E .START phpCAS-1.3.2 ****************** [CAS.php:450]
+079E .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+079E .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+079E .|    |    Starting a new session [Client.php:792]
+079E .|    <= ''
+079E .<= ''
+079E .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+079E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+079E .<= ''
+F144 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+F144 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+F144 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+F144 .|    |    Starting a new session [Client.php:792]
+F144 .|    <= ''
+F144 .<= ''
+F144 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+F144 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+F144 .<= ''
+99FB .START phpCAS-1.3.2 ****************** [CAS.php:450]
+99FB .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+99FB .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+99FB .|    |    Starting a new session [Client.php:792]
+99FB .|    <= ''
+99FB .<= ''
+99FB .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+99FB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+99FB .<= ''
+3D7D .START phpCAS-1.3.2 ****************** [CAS.php:450]
+3D7D .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+3D7D .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+3D7D .|    |    Starting a new session [Client.php:792]
+3D7D .|    <= ''
+3D7D .<= ''
+3D7D .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+3D7D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+3D7D .<= ''
+3D7D .=> phpCAS::isAuthenticated() [index.php:9]
+3D7D .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+3D7D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+3D7D .|    |    |    no user found [Client.php:1375]
+3D7D .|    |    <= false
+3D7D .|    |    no ticket found [Client.php:1258]
+3D7D .|    <= false
+3D7D .<= false
+C328 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+C328 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+C328 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+C328 .|    |    Starting a new session [Client.php:792]
+C328 .|    <= ''
+C328 .<= ''
+C328 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+C328 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+C328 .<= ''
+C328 .=> phpCAS::isAuthenticated() [index.php:9]
+C328 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+C328 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+C328 .|    |    |    no user found [Client.php:1375]
+C328 .|    |    <= false
+C328 .|    |    no ticket found [Client.php:1258]
+C328 .|    <= false
+C328 .<= false
+C328 .=> phpCAS::isAuthenticated() [index.php:10]
+C328 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+C328 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+C328 .|    |    |    no user found [Client.php:1375]
+C328 .|    |    <= false
+C328 .|    |    no ticket found [Client.php:1258]
+C328 .|    <= false
+C328 .<= false
+C328 .=> phpCAS::forceAuthentication() [index.php:11]
+C328 .|    => CAS_Client::forceAuthentication() [CAS.php:1101]
+C328 .|    |    => CAS_Client::isAuthenticated() [Client.php:1083]
+C328 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+C328 .|    |    |    |    no user found [Client.php:1375]
+C328 .|    |    |    <= false
+C328 .|    |    |    no ticket found [Client.php:1258]
+C328 .|    |    <= false
+C328 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1092]
+C328 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1396]
+C328 .|    |    |    |    => CAS_Client::getURL() [Client.php:328]
+C328 .|    |    |    |    |    Final URI: http://localhost/photoshare/index.php?signin=true [Client.php:3071]
+C328 .|    |    |    |    <= 'http://localhost/photoshare/index.php?signin=true'
+C328 .|    |    |    <= 'https://mytest107.iit.edu/cas/login?service=http%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+C328 .|    |    |    Redirect to : https://mytest107.iit.edu/cas/login?service=http%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue [Client.php:1402]
+C328 .|    |    |    exit()
+C328 .|    |    |    -
+C328 .|    |    -
+C328 .|    -
+7BB2 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+7BB2 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+7BB2 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+7BB2 .|    |    Starting a new session [Client.php:792]
+7BB2 .|    <= ''
+7BB2 .<= ''
+7BB2 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+7BB2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+7BB2 .<= ''
+7BB2 .=> phpCAS::isAuthenticated() [index.php:9]
+7BB2 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+7BB2 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+7BB2 .|    |    |    no user found [Client.php:1375]
+7BB2 .|    |    <= false
+7BB2 .|    |    no ticket found [Client.php:1258]
+7BB2 .|    <= false
+7BB2 .<= false
+AC34 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+AC34 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+AC34 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+AC34 .|    |    Starting a new session [Client.php:792]
+AC34 .|    <= ''
+AC34 .<= ''
+AC34 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+AC34 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+AC34 .<= ''
+AC34 .=> phpCAS::isAuthenticated() [index.php:9]
+AC34 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+AC34 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+AC34 .|    |    |    no user found [Client.php:1375]
+AC34 .|    |    <= false
+AC34 .|    |    no ticket found [Client.php:1258]
+AC34 .|    <= false
+AC34 .<= false
+AC34 .=> phpCAS::isAuthenticated() [index.php:10]
+AC34 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+AC34 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+AC34 .|    |    |    no user found [Client.php:1375]
+AC34 .|    |    <= false
+AC34 .|    |    no ticket found [Client.php:1258]
+AC34 .|    <= false
+AC34 .<= false
+AC34 .=> phpCAS::forceAuthentication() [index.php:11]
+AC34 .|    => CAS_Client::forceAuthentication() [CAS.php:1101]
+AC34 .|    |    => CAS_Client::isAuthenticated() [Client.php:1083]
+AC34 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+AC34 .|    |    |    |    no user found [Client.php:1375]
+AC34 .|    |    |    <= false
+AC34 .|    |    |    no ticket found [Client.php:1258]
+AC34 .|    |    <= false
+AC34 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1092]
+AC34 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1396]
+AC34 .|    |    |    |    => CAS_Client::getURL() [Client.php:328]
+AC34 .|    |    |    |    |    Final URI: http://localhost/photoshare/index.php?signin=true [Client.php:3071]
+AC34 .|    |    |    |    <= 'http://localhost/photoshare/index.php?signin=true'
+AC34 .|    |    |    <= 'https://mytest107.iit.edu/cas/login?service=http%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+AC34 .|    |    |    Redirect to : https://mytest107.iit.edu/cas/login?service=http%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue [Client.php:1402]
+AC34 .|    |    |    exit()
+AC34 .|    |    |    -
+AC34 .|    |    -
+AC34 .|    -
+9FB6 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+9FB6 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+9FB6 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+9FB6 .|    |    Starting a new session [Client.php:792]
+9FB6 .|    |    Ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' found [Client.php:870]
+9FB6 .|    <= ''
+9FB6 .<= ''
+9FB6 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+9FB6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+9FB6 .<= ''
+9FB6 .=> phpCAS::isAuthenticated() [index.php:9]
+9FB6 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+9FB6 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+9FB6 .|    |    |    no user found [Client.php:1375]
+9FB6 .|    |    <= false
+9FB6 .|    |    CAS 2.0 ticket `ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' is present [Client.php:1223]
+9FB6 .|    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1224]
+9FB6 .|    |    |     [Client.php:2747]
+9FB6 .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:2753]
+9FB6 .|    |    |    |    => CAS_Client::getURL() [Client.php:417]
+9FB6 .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+9FB6 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+9FB6 .|    |    |    <= 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+9FB6 .|    |    |    => CAS_Client::_readURL('https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', NULL, NULL, NULL) [Client.php:2762]
+9FB6 .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:220]
+9FB6 .|    |    |    |    |    Response Body: 
+9FB6 .|    |    |    |    |    
+9FB6 .|    |    |    |    |    
+9FB6 .|    |    |    |    |    
+9FB6 .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+9FB6 .|    |    |    |    |    	<cas:authenticationFailure code='INVALID_SERVICE'>
+9FB6 .|    |    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; does not match supplied service.  The original service was &#039;http://localhost/photoshare/index.php?signin=true&#039; and the supplied service was &#039;https://localhost/photoshare/index.php?signin=true&#039;.
+9FB6 .|    |    |    |    |    	</cas:authenticationFailure>
+9FB6 .|    |    |    |    |    </cas:serviceResponse>
+9FB6 .|    |    |    |    |     [CurlRequest.php:82]
+9FB6 .|    |    |    |    <= true
+9FB6 .|    |    |    <= true
+9FB6 .|    |    |    => CAS_AuthenticationException::__construct(CAS_Client, 'Ticket not validated', 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', false, false, '<cas:serviceResponse xmlns:cas=\'http://www.yale.edu/tp/cas\'>	<cas:authenticationFailure code=\'INVALID_SERVICE\'>		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; does not match supplied service.  The original service was &#039;http://localhost/photoshare/index.php?signin=true&#039; and the supplied service was &#039;https://localhost/photoshare/index.php?signin=true&#039;.	</cas:authenticationFailure></cas:serviceResponse>', 'INVALID_SERVICE', 'ticket \'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2\' does not match supplied service.  The original service was \'http://localhost/photoshare/index.php?signin=true\' and the supplied service was \'https://localhost/photoshare/index.php?signin=true\'.') [Client.php:2844]
+9FB6 .|    |    |    |    => CAS_Client::getURL() [AuthenticationException.php:76]
+9FB6 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+9FB6 .|    |    |    |    CAS URL: https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2 [AuthenticationException.php:79]
+9FB6 .|    |    |    |    Authentication failure: Ticket not validated [AuthenticationException.php:80]
+9FB6 .|    |    |    |    Reason: [INVALID_SERVICE] CAS error: ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' does not match supplied service.  The original service was 'http://localhost/photoshare/index.php?signin=true' and the supplied service was 'https://localhost/photoshare/index.php?signin=true'. [AuthenticationException.php:95]
+9FB6 .|    |    |    |    CAS response: 
+9FB6 .|    |    |    |    
+9FB6 .|    |    |    |    
+9FB6 .|    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+9FB6 .|    |    |    |    	<cas:authenticationFailure code='INVALID_SERVICE'>
+9FB6 .|    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; does not match supplied service.  The original service was &#039;http://localhost/photoshare/index.php?signin=true&#039; and the supplied service was &#039;https://localhost/photoshare/index.php?signin=true&#039;.
+9FB6 .|    |    |    |    	</cas:authenticationFailure>
+9FB6 .|    |    |    |    </cas:serviceResponse> [AuthenticationException.php:100]
+9FB6 .|    |    |    |    exit()
+9FB6 .|    |    |    |    -
+9FB6 .|    |    |    -
+9FB6 .|    |    -
+9FB6 .|    -
+4673 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+4673 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+4673 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+4673 .|    |    Starting a new session [Client.php:792]
+4673 .|    |    Ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' found [Client.php:870]
+4673 .|    <= ''
+4673 .<= ''
+4673 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+4673 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+4673 .<= ''
+4673 .=> phpCAS::isAuthenticated() [index.php:9]
+4673 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+4673 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+4673 .|    |    |    no user found [Client.php:1375]
+4673 .|    |    <= false
+4673 .|    |    CAS 2.0 ticket `ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' is present [Client.php:1223]
+4673 .|    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1224]
+4673 .|    |    |     [Client.php:2747]
+4673 .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:2753]
+4673 .|    |    |    |    => CAS_Client::getURL() [Client.php:417]
+4673 .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+4673 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+4673 .|    |    |    <= 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+4673 .|    |    |    => CAS_Client::_readURL('https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', NULL, NULL, NULL) [Client.php:2762]
+4673 .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:220]
+4673 .|    |    |    |    |    Response Body: 
+4673 .|    |    |    |    |    
+4673 .|    |    |    |    |    
+4673 .|    |    |    |    |    
+4673 .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+4673 .|    |    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+4673 .|    |    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+4673 .|    |    |    |    |    	</cas:authenticationFailure>
+4673 .|    |    |    |    |    </cas:serviceResponse>
+4673 .|    |    |    |    |     [CurlRequest.php:82]
+4673 .|    |    |    |    <= true
+4673 .|    |    |    <= true
+4673 .|    |    |    => CAS_AuthenticationException::__construct(CAS_Client, 'Ticket not validated', 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', false, false, '<cas:serviceResponse xmlns:cas=\'http://www.yale.edu/tp/cas\'>	<cas:authenticationFailure code=\'INVALID_TICKET\'>		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized	</cas:authenticationFailure></cas:serviceResponse>', 'INVALID_TICKET', 'ticket \'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2\' not recognized') [Client.php:2844]
+4673 .|    |    |    |    => CAS_Client::getURL() [AuthenticationException.php:76]
+4673 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+4673 .|    |    |    |    CAS URL: https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2 [AuthenticationException.php:79]
+4673 .|    |    |    |    Authentication failure: Ticket not validated [AuthenticationException.php:80]
+4673 .|    |    |    |    Reason: [INVALID_TICKET] CAS error: ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' not recognized [AuthenticationException.php:95]
+4673 .|    |    |    |    CAS response: 
+4673 .|    |    |    |    
+4673 .|    |    |    |    
+4673 .|    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+4673 .|    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+4673 .|    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+4673 .|    |    |    |    	</cas:authenticationFailure>
+4673 .|    |    |    |    </cas:serviceResponse> [AuthenticationException.php:100]
+4673 .|    |    |    |    exit()
+4673 .|    |    |    |    -
+4673 .|    |    |    -
+4673 .|    |    -
+4673 .|    -
+845A .START phpCAS-1.3.2 ****************** [CAS.php:450]
+845A .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+845A .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+845A .|    |    Starting a new session [Client.php:792]
+845A .|    |    Ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' found [Client.php:870]
+845A .|    <= ''
+845A .<= ''
+845A .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+845A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+845A .<= ''
+845A .=> phpCAS::isAuthenticated() [index.php:9]
+845A .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+845A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+845A .|    |    |    no user found [Client.php:1375]
+845A .|    |    <= false
+845A .|    |    CAS 2.0 ticket `ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' is present [Client.php:1223]
+845A .|    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1224]
+845A .|    |    |     [Client.php:2747]
+845A .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:2753]
+845A .|    |    |    |    => CAS_Client::getURL() [Client.php:417]
+845A .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+845A .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+845A .|    |    |    <= 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+845A .|    |    |    => CAS_Client::_readURL('https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', NULL, NULL, NULL) [Client.php:2762]
+845A .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:220]
+845A .|    |    |    |    |    Response Body: 
+845A .|    |    |    |    |    
+845A .|    |    |    |    |    
+845A .|    |    |    |    |    
+845A .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+845A .|    |    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+845A .|    |    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+845A .|    |    |    |    |    	</cas:authenticationFailure>
+845A .|    |    |    |    |    </cas:serviceResponse>
+845A .|    |    |    |    |     [CurlRequest.php:82]
+845A .|    |    |    |    <= true
+845A .|    |    |    <= true
+845A .|    |    |    => CAS_AuthenticationException::__construct(CAS_Client, 'Ticket not validated', 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', false, false, '<cas:serviceResponse xmlns:cas=\'http://www.yale.edu/tp/cas\'>	<cas:authenticationFailure code=\'INVALID_TICKET\'>		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized	</cas:authenticationFailure></cas:serviceResponse>', 'INVALID_TICKET', 'ticket \'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2\' not recognized') [Client.php:2844]
+845A .|    |    |    |    => CAS_Client::getURL() [AuthenticationException.php:76]
+845A .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+845A .|    |    |    |    CAS URL: https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2 [AuthenticationException.php:79]
+845A .|    |    |    |    Authentication failure: Ticket not validated [AuthenticationException.php:80]
+845A .|    |    |    |    Reason: [INVALID_TICKET] CAS error: ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' not recognized [AuthenticationException.php:95]
+845A .|    |    |    |    CAS response: 
+845A .|    |    |    |    
+845A .|    |    |    |    
+845A .|    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+845A .|    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+845A .|    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+845A .|    |    |    |    	</cas:authenticationFailure>
+845A .|    |    |    |    </cas:serviceResponse> [AuthenticationException.php:100]
+845A .|    |    |    |    exit()
+845A .|    |    |    |    -
+845A .|    |    |    -
+845A .|    |    -
+845A .|    -
+3149 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+3149 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+3149 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+3149 .|    |    Starting a new session [Client.php:792]
+3149 .|    |    Ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' found [Client.php:870]
+3149 .|    <= ''
+3149 .<= ''
+3149 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+3149 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+3149 .<= ''
+3149 .=> phpCAS::isAuthenticated() [index.php:9]
+3149 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+3149 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+3149 .|    |    |    no user found [Client.php:1375]
+3149 .|    |    <= false
+3149 .|    |    CAS 2.0 ticket `ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' is present [Client.php:1223]
+3149 .|    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1224]
+3149 .|    |    |     [Client.php:2747]
+3149 .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:2753]
+3149 .|    |    |    |    => CAS_Client::getURL() [Client.php:417]
+3149 .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+3149 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+3149 .|    |    |    <= 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+3149 .|    |    |    => CAS_Client::_readURL('https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', NULL, NULL, NULL) [Client.php:2762]
+3149 .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:220]
+3149 .|    |    |    |    |    Response Body: 
+3149 .|    |    |    |    |    
+3149 .|    |    |    |    |    
+3149 .|    |    |    |    |    
+3149 .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+3149 .|    |    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+3149 .|    |    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+3149 .|    |    |    |    |    	</cas:authenticationFailure>
+3149 .|    |    |    |    |    </cas:serviceResponse>
+3149 .|    |    |    |    |     [CurlRequest.php:82]
+3149 .|    |    |    |    <= true
+3149 .|    |    |    <= true
+3149 .|    |    |    => CAS_AuthenticationException::__construct(CAS_Client, 'Ticket not validated', 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2', false, false, '<cas:serviceResponse xmlns:cas=\'http://www.yale.edu/tp/cas\'>	<cas:authenticationFailure code=\'INVALID_TICKET\'>		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized	</cas:authenticationFailure></cas:serviceResponse>', 'INVALID_TICKET', 'ticket \'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2\' not recognized') [Client.php:2844]
+3149 .|    |    |    |    => CAS_Client::getURL() [AuthenticationException.php:76]
+3149 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+3149 .|    |    |    |    CAS URL: https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2 [AuthenticationException.php:79]
+3149 .|    |    |    |    Authentication failure: Ticket not validated [AuthenticationException.php:80]
+3149 .|    |    |    |    Reason: [INVALID_TICKET] CAS error: ticket 'ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2' not recognized [AuthenticationException.php:95]
+3149 .|    |    |    |    CAS response: 
+3149 .|    |    |    |    
+3149 .|    |    |    |    
+3149 .|    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+3149 .|    |    |    |    	<cas:authenticationFailure code='INVALID_TICKET'>
+3149 .|    |    |    |    		ticket &#039;ST-316-tfXolV2RwAfhuKiBFPbY-mytest107-t2&#039; not recognized
+3149 .|    |    |    |    	</cas:authenticationFailure>
+3149 .|    |    |    |    </cas:serviceResponse> [AuthenticationException.php:100]
+3149 .|    |    |    |    exit()
+3149 .|    |    |    |    -
+3149 .|    |    |    -
+3149 .|    |    -
+3149 .|    -
+3F77 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+3F77 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+3F77 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+3F77 .|    |    Starting a new session [Client.php:792]
+3F77 .|    <= ''
+3F77 .<= ''
+3F77 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+3F77 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+3F77 .<= ''
+3F77 .=> phpCAS::isAuthenticated() [index.php:9]
+3F77 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+3F77 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+3F77 .|    |    |    no user found [Client.php:1375]
+3F77 .|    |    <= false
+3F77 .|    |    no ticket found [Client.php:1258]
+3F77 .|    <= false
+3F77 .<= false
+6047 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+6047 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+6047 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+6047 .|    |    Starting a new session [Client.php:792]
+6047 .|    <= ''
+6047 .<= ''
+6047 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+6047 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+6047 .<= ''
+6047 .=> phpCAS::isAuthenticated() [index.php:9]
+6047 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6047 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6047 .|    |    |    no user found [Client.php:1375]
+6047 .|    |    <= false
+6047 .|    |    no ticket found [Client.php:1258]
+6047 .|    <= false
+6047 .<= false
+6047 .=> phpCAS::isAuthenticated() [index.php:10]
+6047 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6047 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6047 .|    |    |    no user found [Client.php:1375]
+6047 .|    |    <= false
+6047 .|    |    no ticket found [Client.php:1258]
+6047 .|    <= false
+6047 .<= false
+6047 .=> phpCAS::forceAuthentication() [index.php:11]
+6047 .|    => CAS_Client::forceAuthentication() [CAS.php:1101]
+6047 .|    |    => CAS_Client::isAuthenticated() [Client.php:1083]
+6047 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6047 .|    |    |    |    no user found [Client.php:1375]
+6047 .|    |    |    <= false
+6047 .|    |    |    no ticket found [Client.php:1258]
+6047 .|    |    <= false
+6047 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1092]
+6047 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1396]
+6047 .|    |    |    |    => CAS_Client::getURL() [Client.php:328]
+6047 .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+6047 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+6047 .|    |    |    <= 'https://mytest107.iit.edu/cas/login?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+6047 .|    |    |    Redirect to : https://mytest107.iit.edu/cas/login?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue [Client.php:1402]
+6047 .|    |    |    exit()
+6047 .|    |    |    -
+6047 .|    |    -
+6047 .|    -
+0E56 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+0E56 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+0E56 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+0E56 .|    |    Starting a new session [Client.php:792]
+0E56 .|    |    Ticket 'ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2' found [Client.php:870]
+0E56 .|    <= ''
+0E56 .<= ''
+0E56 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+0E56 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+0E56 .<= ''
+0E56 .=> phpCAS::isAuthenticated() [index.php:9]
+0E56 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+0E56 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+0E56 .|    |    |    no user found [Client.php:1375]
+0E56 .|    |    <= false
+0E56 .|    |    CAS 2.0 ticket `ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2' is present [Client.php:1223]
+0E56 .|    |    => CAS_Client::validateCAS20('', NULL, NULL) [Client.php:1224]
+0E56 .|    |    |     [Client.php:2747]
+0E56 .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:2753]
+0E56 .|    |    |    |    => CAS_Client::getURL() [Client.php:417]
+0E56 .|    |    |    |    |    Final URI: https://localhost/photoshare/index.php?signin=true [Client.php:3071]
+0E56 .|    |    |    |    <= 'https://localhost/photoshare/index.php?signin=true'
+0E56 .|    |    |    <= 'https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue'
+0E56 .|    |    |    => CAS_Client::_readURL('https://mytest107.iit.edu/cas/serviceValidate?service=https%3A%2F%2Flocalhost%2Fphotoshare%2Findex.php%3Fsignin%3Dtrue&ticket=ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2', NULL, NULL, NULL) [Client.php:2762]
+0E56 .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:220]
+0E56 .|    |    |    |    |    Response Body: 
+0E56 .|    |    |    |    |    
+0E56 .|    |    |    |    |    
+0E56 .|    |    |    |    |    
+0E56 .|    |    |    |    |    
+0E56 .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+0E56 .|    |    |    |    |            <cas:authenticationSuccess>
+0E56 .|    |    |    |    |                    <cas:user>mtorre12</cas:user>
+0E56 .|    |    |    |    |                    <cas:attributes>
+0E56 .|    |    |    |    |                            
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                            <cas:uid>mtorre12</cas:uid>
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                            <cas:email>mtorre12@iit.edu</cas:email>
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                            <cas:roles>student</cas:roles>
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                            <cas:name>Marilyn Tresse Torres-barrios</cas:name>
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                                              <cas:attribute name="anumber" value="A20332668"></cas:attribute>
+0E56 .|    |    |    |    |                                                    
+0E56 .|    |    |    |    |                                            
+0E56 .|    |    |    |    |                                            <cas:anumber>A20332668</cas:anumber>
+0E56 .|    |    |    |    |                                    
+0E56 .|    |    |    |    |                            
+0E56 .|    |    |    |    |                    </cas:attributes>
+0E56 .|    |    |    |    |                    
+0E56 .|    |    |    |    |                    
+0E56 .|    |    |    |    |            </cas:authenticationSuccess>
+0E56 .|    |    |    |    |    </cas:serviceResponse>
+0E56 .|    |    |    |    |    
+0E56 .|    |    |    |    |     [CurlRequest.php:82]
+0E56 .|    |    |    |    <= true
+0E56 .|    |    |    <= true
+0E56 .|    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:2813]
+0E56 .|    |    |    |    Found nested jasig style attributes [Client.php:2898]
+0E56 .|    |    |    |    Attribute [uid] = mtorre12 [Client.php:2902]
+0E56 .|    |    |    |    Attribute [email] = mtorre12@iit.edu [Client.php:2902]
+0E56 .|    |    |    |    Attribute [roles] = student [Client.php:2902]
+0E56 .|    |    |    |    Attribute [name] = Marilyn Tresse Torres-barrios [Client.php:2902]
+0E56 .|    |    |    |    Attribute [attribute] =  [Client.php:2902]
+0E56 .|    |    |    |    Attribute [anumber] = A20332668 [Client.php:2902]
+0E56 .|    |    |    <= ''
+0E56 .|    |    |    Storing Proxy List [Client.php:2822]
+0E56 .|    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:2825]
+0E56 .|    |    |    |    No proxies were found in the response [AllowedList.php:81]
+0E56 .|    |    |    <= true
+0E56 .|    |    |    => CAS_Client::_renameSession('ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2') [Client.php:2856]
+0E56 .|    |    |    |    Session ID: ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2 [Client.php:3180]
+0E56 .|    |    |    |    Restoring old session vars [Client.php:3183]
+0E56 .|    |    |    <= ''
+0E56 .|    |    <= true
+0E56 .|    |    CAS 2.0 ticket `ST-317-bIQkta1DNhwo1b0KACem-mytest107-t2' was validated [Client.php:1225]
+0E56 .|    |    => CAS_Client::getURL() [Client.php:1279]
+0E56 .|    |    <= 'https://localhost/photoshare/index.php?signin=true'
+0E56 .|    |    Prepare redirect to : https://localhost/photoshare/index.php?signin=true [Client.php:1279]
+0E56 .|    |    => CAS_Client::getURL() [Client.php:1280]
+0E56 .|    |    <= 'https://localhost/photoshare/index.php?signin=true'
+0E56 .|    |    exit()
+0E56 .|    |    -
+0E56 .|    -
+344E .START phpCAS-1.3.2 ****************** [CAS.php:450]
+344E .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+344E .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+344E .|    |    Starting a new session [Client.php:792]
+344E .|    <= ''
+344E .<= ''
+344E .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+344E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+344E .<= ''
+344E .=> phpCAS::isAuthenticated() [index.php:9]
+344E .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+344E .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+344E .|    |    |    user = `mtorre12' [Client.php:1365]
+344E .|    |    <= true
+344E .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+344E .|    <= true
+344E .<= true
+344E .=> phpCAS::isAuthenticated() [index.php:10]
+344E .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+344E .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+344E .|    |    |    user = `mtorre12' [Client.php:1365]
+344E .|    |    <= true
+344E .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+344E .|    <= true
+344E .<= true
+840D .START phpCAS-1.3.2 ****************** [CAS.php:450]
+840D .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+840D .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+840D .|    |    Starting a new session [Client.php:792]
+840D .|    <= ''
+840D .<= ''
+840D .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+840D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+840D .<= ''
+840D .=> phpCAS::isAuthenticated() [index.php:9]
+840D .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+840D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+840D .|    |    |    user = `mtorre12' [Client.php:1365]
+840D .|    |    <= true
+840D .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+840D .|    <= true
+840D .<= true
+840D .=> phpCAS::isAuthenticated() [index.php:10]
+840D .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+840D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+840D .|    |    |    user = `mtorre12' [Client.php:1365]
+840D .|    |    <= true
+840D .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+840D .|    <= true
+840D .<= true
+1441 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+1441 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+1441 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+1441 .|    |    Starting a new session [Client.php:792]
+1441 .|    <= ''
+1441 .<= ''
+1441 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+1441 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+1441 .<= ''
+1441 .=> phpCAS::isAuthenticated() [index.php:9]
+1441 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+1441 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+1441 .|    |    |    user = `mtorre12' [Client.php:1365]
+1441 .|    |    <= true
+1441 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+1441 .|    <= true
+1441 .<= true
+1441 .=> phpCAS::isAuthenticated() [index.php:10]
+1441 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+1441 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+1441 .|    |    |    user = `mtorre12' [Client.php:1365]
+1441 .|    |    <= true
+1441 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+1441 .|    <= true
+1441 .<= true
+C15B .START phpCAS-1.3.2 ****************** [CAS.php:450]
+C15B .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+C15B .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+C15B .|    |    Starting a new session [Client.php:792]
+C15B .|    <= ''
+C15B .<= ''
+C15B .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+C15B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+C15B .<= ''
+C15B .=> phpCAS::isAuthenticated() [index.php:9]
+C15B .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+C15B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+C15B .|    |    |    user = `mtorre12' [Client.php:1365]
+C15B .|    |    <= true
+C15B .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+C15B .|    <= true
+C15B .<= true
+C15B .=> phpCAS::isAuthenticated() [index.php:10]
+C15B .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+C15B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+C15B .|    |    |    user = `mtorre12' [Client.php:1365]
+C15B .|    |    <= true
+C15B .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+C15B .|    <= true
+C15B .<= true
+2148 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+2148 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+2148 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+2148 .|    |    Starting a new session [Client.php:792]
+2148 .|    <= ''
+2148 .<= ''
+2148 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+2148 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+2148 .<= ''
+2148 .=> phpCAS::isAuthenticated() [index.php:9]
+2148 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2148 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2148 .|    |    |    user = `mtorre12' [Client.php:1365]
+2148 .|    |    <= true
+2148 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2148 .|    <= true
+2148 .<= true
+2148 .=> phpCAS::isAuthenticated() [index.php:10]
+2148 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2148 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2148 .|    |    |    user = `mtorre12' [Client.php:1365]
+2148 .|    |    <= true
+2148 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2148 .|    <= true
+2148 .<= true
+2148 .=> phpCAS::isAuthenticated() [index.php:42]
+2148 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2148 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2148 .|    |    |    user = `mtorre12' [Client.php:1365]
+2148 .|    |    <= true
+2148 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2148 .|    <= true
+2148 .<= true
+B2A8 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+B2A8 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+B2A8 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+B2A8 .|    |    Starting a new session [Client.php:792]
+B2A8 .|    <= ''
+B2A8 .<= ''
+B2A8 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+B2A8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+B2A8 .<= ''
+B2A8 .=> phpCAS::isAuthenticated() [index.php:9]
+B2A8 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+B2A8 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+B2A8 .|    |    |    user = `mtorre12' [Client.php:1365]
+B2A8 .|    |    <= true
+B2A8 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+B2A8 .|    <= true
+B2A8 .<= true
+B2A8 .=> phpCAS::isAuthenticated() [index.php:10]
+B2A8 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+B2A8 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+B2A8 .|    |    |    user = `mtorre12' [Client.php:1365]
+B2A8 .|    |    <= true
+B2A8 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+B2A8 .|    <= true
+B2A8 .<= true
+B2A8 .=> phpCAS::isAuthenticated() [index.php:42]
+B2A8 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+B2A8 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+B2A8 .|    |    |    user = `mtorre12' [Client.php:1365]
+B2A8 .|    |    <= true
+B2A8 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+B2A8 .|    <= true
+B2A8 .<= true
+2C17 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+2C17 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+2C17 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+2C17 .|    |    Starting a new session [Client.php:792]
+2C17 .|    <= ''
+2C17 .<= ''
+2C17 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+2C17 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+2C17 .<= ''
+2C17 .=> phpCAS::isAuthenticated() [index.php:9]
+2C17 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2C17 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2C17 .|    |    |    user = `mtorre12' [Client.php:1365]
+2C17 .|    |    <= true
+2C17 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2C17 .|    <= true
+2C17 .<= true
+2C17 .=> phpCAS::isAuthenticated() [index.php:10]
+2C17 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2C17 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2C17 .|    |    |    user = `mtorre12' [Client.php:1365]
+2C17 .|    |    <= true
+2C17 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2C17 .|    <= true
+2C17 .<= true
+2C17 .=> phpCAS::isAuthenticated() [index.php:42]
+2C17 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+2C17 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+2C17 .|    |    |    user = `mtorre12' [Client.php:1365]
+2C17 .|    |    <= true
+2C17 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+2C17 .|    <= true
+2C17 .<= true
+4C95 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+4C95 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+4C95 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+4C95 .|    |    Starting a new session [Client.php:792]
+4C95 .|    <= ''
+4C95 .<= ''
+4C95 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+4C95 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+4C95 .<= ''
+4C95 .=> phpCAS::isAuthenticated() [index.php:9]
+4C95 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+4C95 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+4C95 .|    |    |    user = `mtorre12' [Client.php:1365]
+4C95 .|    |    <= true
+4C95 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+4C95 .|    <= true
+4C95 .<= true
+4C95 .=> phpCAS::isAuthenticated() [index.php:10]
+4C95 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+4C95 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+4C95 .|    |    |    user = `mtorre12' [Client.php:1365]
+4C95 .|    |    <= true
+4C95 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+4C95 .|    <= true
+4C95 .<= true
+4C95 .=> phpCAS::isAuthenticated() [index.php:33]
+4C95 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+4C95 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+4C95 .|    |    |    user = `mtorre12' [Client.php:1365]
+4C95 .|    |    <= true
+4C95 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+4C95 .|    <= true
+4C95 .<= true
+4C95 .=> phpCAS::isAuthenticated() [index.php:49]
+4C95 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+4C95 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+4C95 .|    |    |    user = `mtorre12' [Client.php:1365]
+4C95 .|    |    <= true
+4C95 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+4C95 .|    <= true
+4C95 .<= true
+6245 .START phpCAS-1.3.2 ****************** [CAS.php:450]
+6245 .=> phpCAS::client('2.0', 'mytest107.iit.edu', 443, '/cas') [cas_setup.php:9]
+6245 .|    => CAS_Client::__construct('2.0', false, 'mytest107.iit.edu', 443, '/cas', true) [CAS.php:345]
+6245 .|    |    Starting a new session [Client.php:792]
+6245 .|    <= ''
+6245 .<= ''
+6245 .=> phpCAS::setNoCasServerValidation() [cas_setup.php:11]
+6245 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1669]
+6245 .<= ''
+6245 .=> phpCAS::isAuthenticated() [index.php:9]
+6245 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6245 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6245 .|    |    |    user = `mtorre12' [Client.php:1365]
+6245 .|    |    <= true
+6245 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+6245 .|    <= true
+6245 .<= true
+6245 .=> phpCAS::isAuthenticated() [index.php:33]
+6245 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6245 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6245 .|    |    |    user = `mtorre12' [Client.php:1365]
+6245 .|    |    <= true
+6245 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+6245 .|    <= true
+6245 .<= true
+6245 .=> phpCAS::isAuthenticated() [index.php:49]
+6245 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6245 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6245 .|    |    |    user = `mtorre12' [Client.php:1365]
+6245 .|    |    <= true
+6245 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+6245 .|    <= true
+6245 .<= true
+6245 .=> phpCAS::isAuthenticated() [index.php:91]
+6245 .|    => CAS_Client::isAuthenticated() [CAS.php:1151]
+6245 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1189]
+6245 .|    |    |    user = `mtorre12' [Client.php:1365]
+6245 .|    |    <= true
+6245 .|    |    user was already authenticated, no need to look for tickets [Client.php:1206]
+6245 .|    <= true
+6245 .<= true
