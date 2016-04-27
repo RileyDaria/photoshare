@@ -1,11 +1,19 @@
 #!/bin/bash
 
 declare -a instancesARR
+declare -a instbackupARR
+declare -a dbARR
+declare -a dbbackupARR
 
 echo "Check the README file for help if needed"
 
 mapfile -t instancesARR < <(euca-run-instances -g group2 -k $1 -t c1.medium -n 1 -f photoshare/infrastructure/instance-env.sh emi-c87b2863 | grep -o 'i-.\{0,8\}' | head -1)
 
+mapfile -t instbackupARR < <(euca-run-instances -g group2 -k $1 -t c1.medium -n 1 -f photoshare/infrastructure/instance-env.sh emi-c87b2863 | grep -o 'i-.\{0,8\}' | head -1)
+
+echo "Main isntance id"
+echo ${instbackupARR[@]}
+echo "backup instance id"
 echo ${instancesARR[@]}
 
 echo "short sleep to allow instances to load before creating the load balancer"
@@ -16,9 +24,9 @@ eulb-create-lb -z RICE01 -l "lb-port=80, protocol=HTTP, instance-port=80, instan
 echo "another short sleep to allow the load balancer to be created before attaching instances to it"
 sleep 120
 
-eulb-register-instances-with-lb --instances instancesARR[@] hawkstagram-elb
+eulb-register-instances-with-lb --instances instancesARR[@],instbackupARR[@] hawkstagram-elb
 
 sleep 5
 
 #hopefully this will put a metric alarm that monitors CPU usage on ELBs and alerts when it exceeds 90% usage for 3 consecutive 1 minute periods
-euwatch-put-metric-alarm test-alarm --alarm-description "a test alarm for CPU utilization" --metric-name CPUUtilization --namespace AWS/ELB --statistic Average --period 60 --threshold 90 --comparison-operator GreaterThanThreshold --evaluation-periods 3
+#euwatch-put-metric-alarm test-alarm --alarm-description "a test alarm for CPU utilization" --metric-name CPUUtilization --namespace AWS/ELB --statistic Average --period 60 --threshold 90 --comparison-operator GreaterThanThreshold --evaluation-periods 3
