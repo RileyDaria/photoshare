@@ -2,30 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
-	
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
 	<title>IIT Photoshare Site</title>
 </head>
 <body>
-
-    <div class="main-header" id="banner">
-        
-	
-	
-	
+  <div class="main-header" id="banner">
 		<h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
 		<div>
-		<img src="search-icon-white.png"alt="search_icon" id="search" ></img>
-		<button id="sign_in" >Sign In</a></button>
+
+		<img src="images/search-icon-white.png"alt="search_icon" id="search" >
+	
 		</div>
 	
    </div>
-	<input type="file" id="file">
-	<div id="output"></div>
+   
+   <div class="image-upload">
+   <label for="file">
+		<img src="images/upload_icon.png"/>
+	</label>
 	
-	    <div id="category">
+	<input type="file" class="file-input" accept="image/*" id="file" placeholder="Choose the file from your device"/>
+	</div>
+
+		
+	<div class="container">
+		<div id="output"></div>
+	
+	<h2>Please choose the Category</h2>
+	    <div id="category" class="category_buttons">
 		
 		<button>Graduation</button>
 		<button>Events</button>
@@ -47,8 +52,14 @@
 		<button>WISER</button>
 		
     </div>
+</div>
 
-<script>
+	
+
+
+
+
+  <script>
 
 		function handleFileSelect(evt) {
 			var fileList = evt.target.files;
@@ -79,23 +90,6 @@
 		document.getElementById('file').addEventListener('change', handleFileSelect, false);
 
 
-</script>
-	
-  <div id="footer">
-  	<nav>
- 		 <ul>
-   		 <li><a href="signin.html">SignIn</a></li>
-    		 <li class="active"><a href="index.html">Search</a></li>
-    		 <li><a href="#">Suggestions</a></li>
-    		 <li><a href="#">Team Members</a></li>
-  		 </ul>
-	</nav>
-	
-  
-
-  	<div class="Copyright">
-		<p>&copy; Hawkstagram.com<p>
-  	</div>
-  </div>
+</script>	
 </body>
 </html>
