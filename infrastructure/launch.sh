@@ -11,10 +11,10 @@ mapfile -t instancesARR < <(euca-run-instances -g group2 -k $1 -t c1.medium -n 1
 
 mapfile -t instbackupARR < <(euca-run-instances -g group2 -k $1 -t c1.medium -n 1 -f photoshare/infrastructure/instance-env.sh emi-c87b2863 | grep -o 'i-.\{0,8\}' | head -1)
 
-echo "backup instance id"
-echo ${instbackupARR[@]}
 echo "main instance id"
 echo ${instancesARR[@]}
+echo "backup instance id"
+echo ${instbackupARR[@]}
 
 echo "short sleep to allow instances to load before creating the load balancer"
 sleep 30
