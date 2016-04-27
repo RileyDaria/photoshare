@@ -1,7 +1,14 @@
 #!/bin/bash
 
+sudo apt-get install software-properties-common -y 
+sudo apt-get install python-software-properties -y
+sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php -y
 sudo apt-get update -y
-sudo apt-get install -y apache2 git php5 php5-curl mysql-client curl php5-mysql vim
+sudo apt-get purge php5-common -y
+sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
+sudo apt-get --purge autoremove -y
+sudo apt-get update -y
+sudo apt-get install -y apache2 git php-curl mysql-client curl vim
 
 sudo curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
