@@ -6,12 +6,15 @@
  * Time: 6:04 PM
  */
 require_once('cas_setup.php');
+<<<<<<< HEAD
 var_dump(phpCAS::isAuthenticated());
 if(isset($_GET['signin'])&& !phpCAS::isAuthenticated()){
   phpCAS::forceAuthentication();
 }
 
 
+=======
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
 
 ?>
 <!DOCTYPE html>
@@ -43,22 +46,47 @@ if(isset($_GET['signin'])&& !phpCAS::isAuthenticated()){
 	<div>
 		<div id="center">
 			<div class="wrapper">
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
         <h2>Where Illinois Tech Hawks share pictures</h2>
         <p>Here students can upload,search,organize, and share your pictures.	</p>
         <?php
         if(phpCAS::isAuthenticated()){
+<<<<<<< HEAD
           echo '<input type="button" value="'.phpCAS::getUser().'"/>';
+=======
+         echo 'Welcome, Upload Your Pictures Here!';
+
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
         }
         else {
           echo '<a href="index.php?signin=true"><input type="button" value="SIGN IN" id="big_signin" /></a>';
         }
         ?>
 
+<<<<<<< HEAD
+=======
+        <?php
+        if(phpCAS::isAuthenticated()){
+          echo '<a href="upload.php">Upload Picture</a>';
+
+        }
+        ?>
+
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
       </div>
 		</div>
 	</div>
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
   <form id="searchbox" action="">
     <input id="search_pic" type="text" placeholder="Type here">
     <input id="submit" type="submit" value="Search">

@@ -5,6 +5,7 @@
 //    phpCAS::logout();
     if(!phpCAS::isAuthenticated()) {
         phpCAS::forceAuthentication();
+<<<<<<< HEAD
     }
 ?>
 
@@ -70,7 +71,25 @@ if(isset($_FILES['image'])) {
     }
     else {
         print_r($errors);
+=======
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
     }
+
+    if(isset($_FILES['image'])) {
+        $image = new Image();
+        #TODO validate/secure user submitted data
+        $image->name = $_POST['image_name'];
+        $image->uid = phpCAS::getUser();
+
+        if($errors = $image->create($_FILES['image']) === true) {
+            foreach($_POST['categories'] as $category) {
+                $image->addTag($category);
+            }
+            echo "<script>window.location = \"http://localhost/photoshare/view.php?photo=$image->image_id\";</script>";
+        }
+        else {
+            print_r($errors);
+        }
 }
 ?>
 
@@ -83,6 +102,52 @@ if(isset($_FILES['image'])) {
     <title>IIT Photoshare Site</title>
 </head>
 <body>
+<<<<<<< HEAD
+=======
+<!--<div class="main-header" id="banner">
+    <h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
+    <div>
+        <img src="search-icon-white.png" alt="search_icon" id="search">
+        <button id="sign_in" >Sign In</button>
+    </div>
+</div>
+s
+<form action="connect.php" method="POST" enctype="multipart/form-data">
+    <label for="image_ID">Select image to upload:</label>
+    <input type="submit" name="image" id="imageToUpload" size="30"/>
+</form> <br>
+<form>
+    <label >Name: <input type="text" name="fname" /></label>
+</form>
+
+<h2>Categories</h2>
+<button type="button">Graduation</button>
+<button type="button">Sports</button>
+<button type="button">IPRO</button><br>
+<button type="button">Events</button>
+<button type="button">College Life</button>
+<button type="button">Graduation</button><br>
+<button type="button">Graduation</button>
+<button type="button">Graduation</button>
+<button type="button">Graduation</button><br><br>
+<input type="submit" value="Submit"/>
+
+
+
+<h1>Welcome <?php /*echo $login_session; */?></h1>
+<h2><a href = "index.html">Sign Out</a></h2>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>IIT Photoshare Site</title>
+</head>
+<body>
+>>>>>>> 07a448505e0a0a2c4f4247a5a9dc90977c524b92
 <div class="main-header" id="banner">
     <h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
     <div>

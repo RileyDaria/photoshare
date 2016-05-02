@@ -10,30 +10,86 @@
   <div class="main-header" id="banner">
 		<h1 id="hawkstagram"><span>Hawks</span>tagram</h1>
 		<div>
-			<img src="search-icon-white.png" alt="search_icon" id="search">
-			<button id="sign_in" >Sign In</button>
+
+		<img src="images/search-icon-white.png"alt="search_icon" id="search" >
+	
 		</div>
-  </div>
+	
+   </div>
+   
+   <div class="image-upload">
+   <label for="file">
+		<img src="images/upload_icon.png"/>
+	</label>
+	
+	<input type="file" class="file-input" accept="image/*" id="file" placeholder="Choose the file from your device"/>
+	</div>
 
-  <form action="user file" method="POST" enctype="multipart/form-data">
-    <label for="image_ID">Select image to upload:</label>
-  <input type="file" name="image" id="imageToUpload" size="30"/>
-  </form> <br>
-  <form>
-	<label >Name: <input type="text" name="fname" /></label>
-  </form>
+		
+	<div class="container">
+		<div id="output"></div>
+	
+	<h2>Please choose the Category</h2>
+	    <div id="category" class="category_buttons">
+		
+		<button>Graduation</button>
+		<button>Events</button>
+		<button>Campus</button>
+		<button>International Students</button>
+		<button>Sports</button>
+		<button>Student Life</button>
+		<button>IPRO</button>
+		<button>Armour College of Engineering</button>
+		<button>Chicago-Kent College of Law</button>
+		<button>College of Architecture</button>
+		<button>College of Science</button>
+		<button>Institute of Design</button>
+		<button>Institute for Food Safety and Health</button>
+		<button>Lewis College of Human Sciences</button>
+		<button>Pritzker Institute of Biomedical Science and Engineering</button>
+		<button>School of Applied Technology</button>
+		<button>Stuart School of Business</button>
+		<button>WISER</button>
+		
+    </div>
+</div>
 
-	<h2>Categories</h2>
-	<button type="button">Graduation</button>
-	<button type="button">Sports</button>
-	<button type="button">IPRO</button><br>
-	<button type="button">Events</button>
-	<button type="button">College Life</button>
-	<button type="button">Graduation</button><br>
-	<button type="button">Graduation</button>
-	<button type="button">Graduation</button>
-	<button type="button">Graduation</button><br><br>
-	<input type="submit" value="Submit"/>
+	
+
+
+
+
+  <script>
+
+		function handleFileSelect(evt) {
+			var fileList = evt.target.files;
+			console.log(fileList);
+
+			for (var i = 0; i < fileList.length; i++) {
+				//fileList[i]
+				if (fileList[i].type.match('image.*')) {
+					renderImage(fileList[i]);
+				}
+			};
+		}
+				function renderImage(aFile){
+			var reader = new FileReader();
+			reader.onload = function(evt){
+				var outputDiv = document.getElementById('output');
+				console.log(evt);
+				var dataUrl = evt.target.result;
+
+				var img = document.createElement('img');
+				img.src = dataUrl;
+				img.height = '200';
+				outputDiv.appendChild(img);
+			};
+			reader.readAsDataURL(aFile);
+		}
+
+		document.getElementById('file').addEventListener('change', handleFileSelect, false);
+
+
+</script>	
 </body>
 </html>
-
